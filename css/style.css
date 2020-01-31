@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif; }
+
+#bigContainer {
+  margin: 0% 10%;
+  box-shadow: 5px 5px 100px grey; }
+
+header #h_banner {
+  background-color: #FFF3F3; }
+  header #h_banner #h_images {
+    display: flex;
+    justify-content: space-between;
+    margin: 0% 3%;
+    padding: 3% 0%; }
+    header #h_banner #h_images #h_logo {
+      align-self: center;
+      width: 20%; }
+    header #h_banner #h_images #h_banner {
+      width: 50%; }
+header #h_navbar {
+  background-color: #8E1616; }
+  header #h_navbar ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    margin: 0% 3%;
+    padding: 1% 0%; }
+    header #h_navbar ul a {
+      text-decoration: none; }
+    header #h_navbar ul li {
+      color: white;
+      font-size: 3vh;
+      margin-right: 5vh; }
+
+footer {
+  background-color: #171717; }
+  footer #f_navbar ul {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    margin: 0% 3%;
+    padding: 2% 0%; }
+    footer #f_navbar ul a {
+      text-decoration: none; }
+    footer #f_navbar ul li {
+      color: white;
+      font-size: 2.5vh;
+      margin-right: 2.5vh; }
+  footer #f_image {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0% 3%;
+    padding: 1% 0%; }
+    footer #f_image #f_logo {
+      align-self: center;
+      width: 20%; }
+  footer #f_text {
+    display: flex;
+    justify-content: center;
+    margin: 0% 3%;
+    padding: 1% 0%; }
+    footer #f_text p {
+      color: white;
+      font-size: 2.5vh; }
+
+/*# sourceMappingURL=style.css.map */

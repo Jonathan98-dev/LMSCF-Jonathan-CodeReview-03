@@ -1,0 +1,173 @@
+$headerColor:#FFF3F3;
+$navbarColor:#8E1616;
+
+$footerColor:#171717;
+
+
+
+
+
+*
+{
+	margin:0px;
+	padding:0px;
+
+	font-family: sans-serif;
+}
+
+body
+{
+
+}
+
+#bigContainer
+{
+	margin: 0% 10%;
+	box-shadow: 5px 5px 100px grey;
+}
+
+//header
+
+header
+{
+	#h_banner
+	{
+		background-color: $headerColor;
+
+		#h_images
+		{
+			display:flex;
+			justify-content: space-between;
+
+			margin: 0% 3%;
+			padding:3% 0%;
+
+			#h_logo
+			{
+				align-self: center;
+
+				width:20%;
+			}
+			#h_banner
+			{
+				width: 50%;
+			}
+		}
+	}
+	#h_navbar
+	{
+		background-color: $navbarColor;
+		ul
+		{	
+			display:flex;
+
+			list-style-type: none;
+			width:100%;
+			margin: 0% 3%;
+			padding: 1% 0%;
+			
+			a
+			{
+				text-decoration: none;
+			}
+
+			li
+			{
+				color:white;
+				font-size: 3vh;
+				margin-right: 5vh;
+				
+			}
+		}
+	}
+}
+
+//main
+
+main
+{
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//footer
+
+footer
+{
+	background-color: $footerColor;
+	#f_navbar
+	{
+		ul
+		{	
+			display:flex;
+
+			list-style-type: none;
+			width:100%;
+			margin: 0% 3%;
+			padding: 2% 0%;			
+			a
+			{
+				text-decoration: none;
+			}
+			li
+			{
+				color:white;
+				font-size: 2.5vh;
+				margin-right: 2.5vh;			
+			}
+		}
+	}
+	#f_image
+	{
+		display:flex;
+		justify-content: flex-end;
+
+		margin: 0% 3%;
+		padding: 1% 0%;
+		
+		#f_logo
+		{
+			align-self: center;
+			width:20%;
+		}
+	}
+	
+	#f_text
+	{
+		display:flex;
+		justify-content: center;
+
+		margin: 0% 3%;
+		padding: 1% 0%;
+		p 
+		{
+			color:white;
+			font-size: 2.5vh;
+		}
+	}
+}

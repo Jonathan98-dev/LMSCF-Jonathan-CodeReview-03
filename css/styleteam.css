@@ -1,0 +1,19 @@
+#m_formContainer #m_teamcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1% 5%;
+  font-size: 3vh;
+  color: black;
+  text-shadow: 1px 1px white; }
+  #m_formContainer #m_teamcontainer div {
+    align-self: center; }
+  #m_formContainer #m_teamcontainer img {
+    align-self: center;
+    box-shadow: 5px 5px 15px black;
+    margin-bottom: 5%;
+    width: 20%; }
+  #m_formContainer #m_teamcontainer #members2 {
+    background-color: black; }
+
+/*# sourceMappingURL=styleteam.css.map */

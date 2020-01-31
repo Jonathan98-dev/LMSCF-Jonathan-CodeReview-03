@@ -43,25 +43,10 @@ function calculateInsurance()
 			document.getElementById("m_formcalculation").innerHTML= (name + ", your insurance costs " + greece + "€");
 
 		break;
-
-
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
+	}	
 }
 
 document.getElementById("m_formbutton").addEventListener("click",calculateInsurance,false)
+
+
+

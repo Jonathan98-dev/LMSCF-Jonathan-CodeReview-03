@@ -1,0 +1,37 @@
+#m_formContainer
+{
+	#m_teamcontainer
+	{
+		display:flex;
+		flex-direction: column;
+		justify-content: center;
+
+		margin: 1% 5%;
+
+		font-size: 3vh;
+		color: black;
+
+		text-shadow: 1px 1px white;
+		
+
+		div
+		{
+			align-self: center;
+
+
+		}
+		img
+		{
+			align-self: center;
+			box-shadow: 5px 5px 15px black;
+			margin-bottom: 5%;
+			width: 20%;
+		}
+		
+		#members2
+		{
+			background-color: black;
+
+		}
+	}
+}

@@ -6,6 +6,8 @@ $footerColor:#171717;
 
 @media only screen and (max-width:1300px)
 {
+	
+
 	#m_formlineone
 	{
 		display:flex;
@@ -15,7 +17,11 @@ $footerColor:#171717;
 	{
 		display:flex;
 		flex-direction: column;
-
+		
+		#m_country
+		{
+			width:50%;
+		}
 
 	}
 
@@ -209,13 +215,18 @@ main
 
 				select
 				{
-					width:200%;
+					width:240%;
 					height: 5vh;
 					font-size: 150%;
 
 
 
 					border: 1px solid grey;
+
+					@media only screen and (max-width:1300px)
+					{
+						width:100%;
+					}
 				}
 				p
 				{

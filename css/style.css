@@ -5,7 +5,9 @@
 
   #m_formlinetwo {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column; }
+    #m_formlinetwo #m_country {
+      width: 50%; } }
 * {
   margin: 0px;
   padding: 0px;
@@ -97,10 +99,13 @@ main {
         font-size: 150%;
         border: 1px solid grey; }
       #m_container #m_formContainer #m_form #m_formlinetwo select {
-        width: 200%;
+        width: 240%;
         height: 5vh;
         font-size: 150%;
         border: 1px solid grey; }
+        @media only screen and (max-width: 1300px) {
+          #m_container #m_formContainer #m_form #m_formlinetwo select {
+            width: 100%; } }
       #m_container #m_formContainer #m_form #m_formlinetwo p {
         font-size: 150%; }
     #m_container #m_formContainer #m_form #m_formbutton {

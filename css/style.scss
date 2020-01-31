@@ -29,6 +29,8 @@ $footerColor:#171717;
 }
 
 
+
+
 *
 {
 	margin:0px;
@@ -132,6 +134,11 @@ main
 
 			color:white;
 			font-size: 6.5vh;
+
+			@media only screen and (max-width:800px)
+				{
+					font-size:180%;
+				}
 		}
 	}
 
@@ -161,6 +168,11 @@ main
 			text-align: center;
 
 			margin-bottom:3%;
+
+			@media only screen and (max-width:800px)
+				{
+					font-size:200%;
+				}
 		}
 
 		#m_form
@@ -186,6 +198,11 @@ main
 					font-size: 150%;
 
 					border: 1px solid grey;
+
+					@media only screen and (max-width:800px)
+					{
+						height:3vh;
+					}
 				}
 				p
 				{
@@ -211,6 +228,11 @@ main
 					font-size: 150%;
 
 					border: 1px solid grey;
+
+					@media only screen and (max-width:800px)
+					{
+						height:3vh;
+					}
 				}
 
 				select
@@ -226,6 +248,7 @@ main
 					@media only screen and (max-width:1300px)
 					{
 						width:100%;
+						height: 3vh;
 					}
 				}
 				p
@@ -253,6 +276,15 @@ main
 					width:35%;
 					height:6vh;
 					margin:3% 0%;
+
+					transition:0.3s;
+
+					
+
+					@media only screen and (max-width:1000px)
+					{
+						font-size:150%;
+					}
 				}	
 			}
 			#m_formresult
@@ -260,12 +292,19 @@ main
 					display:flex;
 					justify-content: center;
 
-					color:#339235;
-					font-size: 4vh;
 					
-					p
+					font-size: 4vh;
+
+					@media only screen and (max-width:800px)
+					{
+						font-size:150%;
+					}
+					
+					#m_formcalculation
 					{
 						margin:3% 0%;
+						text-align: center;
+						color:#339235;
 					}			
 				}
 		}
@@ -285,6 +324,11 @@ main
 			text-align: center;
 			
 			margin: 3% 0%;
+
+			@media only screen and (max-width:800px)
+					{
+						font-size:150%;
+					}
 		}
 	}
 	
@@ -306,17 +350,26 @@ main
 
 			font-size: 2.5vh;
 
-
 			#m_leftColumnHeader
 			{
 				color:#6084A7;
 				font-size: 3.5vh;
+
+				@media only screen and (max-width:800px)
+				{
+					font-size:2.5vh;
+				}
 			}
 
 			#m_leftColumnSubheader
 			{
 				font-size: 2.8vh;
 				margin-bottom: 5%;
+
+				@media only screen and (max-width:800px)
+				{
+					font-size:1.8vh;
+				}
 			}
 
 			ul 
@@ -327,6 +380,11 @@ main
 				li 
 				{
 					margin-bottom:5%;
+
+					@media only screen and (max-width:800px)
+						{
+							font-size:2vh;
+						}
 
 					.m_checks
 					{
@@ -339,11 +397,21 @@ main
 			{
 				
 				font-weight: bold;
+
+				@media only screen and (max-width:800px)
+					{
+						font-size:2vh;
+					}
 			}
 
 			#m_leftBenefits
 			{
 				color: grey;
+
+				@media only screen and (max-width:800px)
+					{
+						font-size:2vh;
+					}
 				
 			}
 
@@ -365,12 +433,22 @@ main
 			{
 				color:#6084A7;
 				font-size: 3.5vh;
+
+				@media only screen and (max-width:800px)
+				{
+					font-size:2.5vh;
+				}
 			}
 
 			#m_rightColumnSubheader
 			{
 				font-size: 2.8vh;
 				margin-bottom: 5%;
+
+				@media only screen and (max-width:800px)
+				{
+					font-size:1.8vh;
+				}
 			}
 
 			ul 
@@ -382,9 +460,15 @@ main
 				{
 					margin-bottom:5%;
 
+					@media only screen and (max-width:800px)
+						{
+							font-size:2vh;
+						}
+
 					.m_checks
 					{
 						color:#8ED2D4;
+
 					}
 				}
 			}
@@ -393,11 +477,21 @@ main
 			{
 				
 				font-weight: bold;
+
+				@media only screen and (max-width:800px)
+					{
+						font-size:2vh;
+					}
 			}
 
 			#m_rightBenefits
 			{
 				color: grey;
+
+				@media only screen and (max-width:800px)
+					{
+						font-size:2vh;
+					}
 				
 			}
 		}

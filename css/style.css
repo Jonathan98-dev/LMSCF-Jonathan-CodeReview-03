@@ -58,6 +58,9 @@ main {
   #m_container #m_textOverForm p {
     color: white;
     font-size: 6.5vh; }
+    @media only screen and (max-width: 800px) {
+      #m_container #m_textOverForm p {
+        font-size: 180%; } }
 #m_container #m_formContainer {
   display: flex;
   flex-direction: column;
@@ -72,6 +75,9 @@ main {
     width: 50%;
     text-align: center;
     margin-bottom: 3%; }
+    @media only screen and (max-width: 800px) {
+      #m_container #m_formContainer #m_formheadertext {
+        font-size: 200%; } }
   #m_container #m_formContainer #m_form {
     margin: 0% 5%; }
     #m_container #m_formContainer #m_form #m_formlineone {
@@ -85,6 +91,9 @@ main {
         height: 5vh;
         font-size: 150%;
         border: 1px solid grey; }
+        @media only screen and (max-width: 800px) {
+          #m_container #m_formContainer #m_form #m_formlineone input {
+            height: 3vh; } }
       #m_container #m_formContainer #m_form #m_formlineone p {
         font-size: 150%; }
     #m_container #m_formContainer #m_form #m_formlinetwo {
@@ -98,6 +107,9 @@ main {
         height: 5vh;
         font-size: 150%;
         border: 1px solid grey; }
+        @media only screen and (max-width: 800px) {
+          #m_container #m_formContainer #m_form #m_formlinetwo input {
+            height: 3vh; } }
       #m_container #m_formContainer #m_form #m_formlinetwo select {
         width: 240%;
         height: 5vh;
@@ -105,7 +117,8 @@ main {
         border: 1px solid grey; }
         @media only screen and (max-width: 1300px) {
           #m_container #m_formContainer #m_form #m_formlinetwo select {
-            width: 100%; } }
+            width: 100%;
+            height: 3vh; } }
       #m_container #m_formContainer #m_form #m_formlinetwo p {
         font-size: 150%; }
     #m_container #m_formContainer #m_form #m_formbutton {
@@ -120,14 +133,22 @@ main {
         border-radius: 10px;
         width: 35%;
         height: 6vh;
-        margin: 3% 0%; }
+        margin: 3% 0%;
+        transition: 0.3s; }
+        @media only screen and (max-width: 1000px) {
+          #m_container #m_formContainer #m_form #m_formbutton button {
+            font-size: 150%; } }
     #m_container #m_formContainer #m_form #m_formresult {
       display: flex;
       justify-content: center;
-      color: #339235;
       font-size: 4vh; }
-      #m_container #m_formContainer #m_form #m_formresult p {
-        margin: 3% 0%; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_formContainer #m_form #m_formresult {
+          font-size: 150%; } }
+      #m_container #m_formContainer #m_form #m_formresult #m_formcalculation {
+        margin: 3% 0%;
+        text-align: center;
+        color: #339235; }
 #m_container #m_textUnderForm {
   display: flex;
   justify-content: center;
@@ -137,6 +158,9 @@ main {
     font-size: 4vh;
     text-align: center;
     margin: 3% 0%; }
+    @media only screen and (max-width: 800px) {
+      #m_container #m_textUnderForm p {
+        font-size: 150%; } }
 #m_container #m_underFormColumns {
   display: flex;
   justify-content: space-around;
@@ -151,20 +175,35 @@ main {
     #m_container #m_underFormColumns #m_leftColumn #m_leftColumnHeader {
       color: #6084A7;
       font-size: 3.5vh; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_leftColumn #m_leftColumnHeader {
+          font-size: 2.5vh; } }
     #m_container #m_underFormColumns #m_leftColumn #m_leftColumnSubheader {
       font-size: 2.8vh;
       margin-bottom: 5%; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_leftColumn #m_leftColumnSubheader {
+          font-size: 1.8vh; } }
     #m_container #m_underFormColumns #m_leftColumn ul {
       list-style-type: none;
       margin-bottom: 4%; }
       #m_container #m_underFormColumns #m_leftColumn ul li {
         margin-bottom: 5%; }
+        @media only screen and (max-width: 800px) {
+          #m_container #m_underFormColumns #m_leftColumn ul li {
+            font-size: 2vh; } }
         #m_container #m_underFormColumns #m_leftColumn ul li .m_checks {
           color: #8ED2D4; }
     #m_container #m_underFormColumns #m_leftColumn #m_leftBenefitsHeader {
       font-weight: bold; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_leftColumn #m_leftBenefitsHeader {
+          font-size: 2vh; } }
     #m_container #m_underFormColumns #m_leftColumn #m_leftBenefits {
       color: grey; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_leftColumn #m_leftBenefits {
+          font-size: 2vh; } }
   #m_container #m_underFormColumns #m_rightColumn {
     border-top: solid 3px #3C3C3C;
     box-shadow: 5px 5px 15px lightgrey;
@@ -175,20 +214,35 @@ main {
     #m_container #m_underFormColumns #m_rightColumn #m_rightColumnHeader {
       color: #6084A7;
       font-size: 3.5vh; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_rightColumn #m_rightColumnHeader {
+          font-size: 2.5vh; } }
     #m_container #m_underFormColumns #m_rightColumn #m_rightColumnSubheader {
       font-size: 2.8vh;
       margin-bottom: 5%; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_rightColumn #m_rightColumnSubheader {
+          font-size: 1.8vh; } }
     #m_container #m_underFormColumns #m_rightColumn ul {
       list-style-type: none;
       margin-bottom: 4%; }
       #m_container #m_underFormColumns #m_rightColumn ul li {
         margin-bottom: 5%; }
+        @media only screen and (max-width: 800px) {
+          #m_container #m_underFormColumns #m_rightColumn ul li {
+            font-size: 2vh; } }
         #m_container #m_underFormColumns #m_rightColumn ul li .m_checks {
           color: #8ED2D4; }
     #m_container #m_underFormColumns #m_rightColumn #m_rightBenefitsHeader {
       font-weight: bold; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_rightColumn #m_rightBenefitsHeader {
+          font-size: 2vh; } }
     #m_container #m_underFormColumns #m_rightColumn #m_rightBenefits {
       color: grey; }
+      @media only screen and (max-width: 800px) {
+        #m_container #m_underFormColumns #m_rightColumn #m_rightBenefits {
+          font-size: 2vh; } }
 
 footer {
   background-color: #171717; }

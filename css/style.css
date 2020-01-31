@@ -1,7 +1,15 @@
+@media only screen and (max-width: 1300px) {
+  #m_formlineone {
+    display: flex;
+    flex-direction: column; }
+
+  #m_formlinetwo {
+    display: flex;
+    flex-direction: column; } }
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   box-sizing: border-box; }
 
 #bigContainer {
@@ -36,16 +44,146 @@ header #h_navbar {
       margin-right: 5vh; }
 
 main {
+  background-color: #CECECE;
   background-image: url("/pics/background.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 1000px; }
 
 #m_container #m_textOverForm {
-  border: 3px green solid; }
+  margin: 0% 3%;
+  padding: 3% 0%; }
   #m_container #m_textOverForm p {
     color: white;
-    font-size: 6vh; }
+    font-size: 6.5vh; }
+#m_container #m_formContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid darkgrey;
+  margin: 0% 5%;
+  padding: 3% 0%; }
+  #m_container #m_formContainer #m_formheadertext {
+    align-self: center;
+    color: #2C2C2C;
+    font-size: 6vh;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 3%; }
+  #m_container #m_formContainer #m_form {
+    margin: 0% 5%; }
+    #m_container #m_formContainer #m_form #m_formlineone {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      padding: 4% 0%;
+      margin: 0% 10%; }
+      #m_container #m_formContainer #m_form #m_formlineone input {
+        width: 100%;
+        height: 5vh;
+        font-size: 150%;
+        border: 1px solid grey; }
+      #m_container #m_formContainer #m_form #m_formlineone p {
+        font-size: 150%; }
+    #m_container #m_formContainer #m_form #m_formlinetwo {
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      padding: 4% 0%;
+      margin: 0% 10%; }
+      #m_container #m_formContainer #m_form #m_formlinetwo input {
+        width: 100%;
+        height: 5vh;
+        font-size: 150%;
+        border: 1px solid grey; }
+      #m_container #m_formContainer #m_form #m_formlinetwo select {
+        width: 200%;
+        height: 5vh;
+        font-size: 150%;
+        border: 1px solid grey; }
+      #m_container #m_formContainer #m_form #m_formlinetwo p {
+        font-size: 150%; }
+    #m_container #m_formContainer #m_form #m_formbutton {
+      display: flex;
+      justify-content: center;
+      margin: 0% 10%; }
+      #m_container #m_formContainer #m_form #m_formbutton button {
+        background-color: #339235;
+        color: white;
+        font-size: 4vh;
+        border: solid 2px transparent;
+        border-radius: 10px;
+        width: 35%;
+        height: 6vh;
+        margin: 3% 0%; }
+    #m_container #m_formContainer #m_form #m_formresult {
+      display: flex;
+      justify-content: center;
+      color: #339235;
+      font-size: 4vh; }
+      #m_container #m_formContainer #m_form #m_formresult p {
+        margin: 3% 0%; }
+#m_container #m_textUnderForm {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin: auto; }
+  #m_container #m_textUnderForm p {
+    font-size: 4vh;
+    text-align: center;
+    margin: 3% 0%; }
+#m_container #m_underFormColumns {
+  display: flex;
+  justify-content: space-around;
+  background-color: white; }
+  #m_container #m_underFormColumns #m_leftColumn {
+    border-top: solid 3px #3C3C3C;
+    box-shadow: 5px 5px 15px lightgrey;
+    width: 40%;
+    margin: 5% 5%;
+    padding: 2% 2%;
+    font-size: 2.5vh; }
+    #m_container #m_underFormColumns #m_leftColumn #m_leftColumnHeader {
+      color: #6084A7;
+      font-size: 3.5vh; }
+    #m_container #m_underFormColumns #m_leftColumn #m_leftColumnSubheader {
+      font-size: 2.8vh;
+      margin-bottom: 5%; }
+    #m_container #m_underFormColumns #m_leftColumn ul {
+      list-style-type: none;
+      margin-bottom: 4%; }
+      #m_container #m_underFormColumns #m_leftColumn ul li {
+        margin-bottom: 5%; }
+        #m_container #m_underFormColumns #m_leftColumn ul li .m_checks {
+          color: #8ED2D4; }
+    #m_container #m_underFormColumns #m_leftColumn #m_leftBenefitsHeader {
+      font-weight: bold; }
+    #m_container #m_underFormColumns #m_leftColumn #m_leftBenefits {
+      color: grey; }
+  #m_container #m_underFormColumns #m_rightColumn {
+    border-top: solid 3px #3C3C3C;
+    box-shadow: 5px 5px 15px lightgrey;
+    width: 40%;
+    margin: 5% 5%;
+    padding: 2% 2%;
+    font-size: 2.5vh; }
+    #m_container #m_underFormColumns #m_rightColumn #m_rightColumnHeader {
+      color: #6084A7;
+      font-size: 3.5vh; }
+    #m_container #m_underFormColumns #m_rightColumn #m_rightColumnSubheader {
+      font-size: 2.8vh;
+      margin-bottom: 5%; }
+    #m_container #m_underFormColumns #m_rightColumn ul {
+      list-style-type: none;
+      margin-bottom: 4%; }
+      #m_container #m_underFormColumns #m_rightColumn ul li {
+        margin-bottom: 5%; }
+        #m_container #m_underFormColumns #m_rightColumn ul li .m_checks {
+          color: #8ED2D4; }
+    #m_container #m_underFormColumns #m_rightColumn #m_rightBenefitsHeader {
+      font-weight: bold; }
+    #m_container #m_underFormColumns #m_rightColumn #m_rightBenefits {
+      color: grey; }
 
 footer {
   background-color: #171717; }

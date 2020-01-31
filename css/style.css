@@ -1,7 +1,8 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+  box-sizing: border-box; }
 
 #bigContainer {
   margin: 0% 10%;
@@ -33,6 +34,18 @@ header #h_navbar {
       color: white;
       font-size: 3vh;
       margin-right: 5vh; }
+
+main {
+  background-image: url("/pics/background.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 1000px; }
+
+#m_container #m_textOverForm {
+  border: 3px green solid; }
+  #m_container #m_textOverForm p {
+    color: white;
+    font-size: 6vh; }
 
 footer {
   background-color: #171717; }

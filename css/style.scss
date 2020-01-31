@@ -13,11 +13,13 @@ $footerColor:#171717;
 	padding:0px;
 
 	font-family: sans-serif;
+	box-sizing: border-box;
+
 }
 
 body
 {
-
+	
 }
 
 #bigContainer
@@ -86,12 +88,29 @@ header
 
 main
 {
-		
+	
+	background-image: url("/pics/background.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	min-height: 1000px;		
 }
 
 
+#m_container
+{
+	#m_textOverForm
+	{
+		border: 3px green solid;
 
+		p
+		{
 
+		color:white;
+		font-size: 6vh;
+
+		}
+	}
+}
 
 
 

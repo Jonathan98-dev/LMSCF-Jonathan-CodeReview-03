@@ -17,6 +17,9 @@
 #bigContainer {
   margin: 0% 10%;
   box-shadow: 5px 5px 100px grey; }
+  @media screen only and (min-width: 2000px) {
+    #bigContainer {
+      width: 50%; } }
 
 header #h_banner {
   background-color: #FFF3F3; }

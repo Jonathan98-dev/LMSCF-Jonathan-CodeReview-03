@@ -47,7 +47,7 @@ header #h_navbar {
 
 main {
   background-color: #CECECE;
-  background-image: url("/pics/background.jpg");
+  background-image: url("pic.png");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 1000px; }

@@ -1,21 +1,24 @@
 var teamMembers = 
 [
 	{
-		"name":"Fran",
-		"email":"fran@index.com",
+		"name":"Franz",
+		"email":"franz@index.com",
 		"image":"pics/employee.jpg",
-		"tel":"0664 2222222"
+		"tel":"0664 2222222",
+		"Id":"789"
 	},
 	{
 		"name":"Bill","email":"bill@index.com",
 		"email":"bill@index.com",
 		"image":"pics/employee.jpg",
-		"tel":"0664 3333333"
+		"tel":"0664 3333333",
+		"Id":"456"
 	},
 	{
 		"name":"Fritz",
 		"email":"fritz@index.com",
 		"image":"pics/employee.jpg",
-		"tel":"0664 4444444"
+		"tel":"0664 4444444",
+		"Id":"123"
 	}
 ];

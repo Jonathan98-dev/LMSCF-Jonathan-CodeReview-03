@@ -1,12 +1,10 @@
 $headerColor:#FFF3F3;
 $navbarColor:#8E1616;
-
 $footerColor:#171717;
 
 
 @media only screen and (max-width:1300px)
 {
-	
 
 	#m_formlineone
 	{
@@ -22,14 +20,8 @@ $footerColor:#171717;
 		{
 			width:50%;
 		}
-
-	}
-
-	
+	}	
 }
-
-
-
 
 *
 {
@@ -101,8 +93,7 @@ header
 			{
 				color:white;
 				font-size: 3vh;
-				margin-right: 5vh;
-				
+				margin-right: 5vh;	
 			}
 		}
 	}
@@ -124,14 +115,11 @@ main
 {
 	#m_textOverForm
 	{
-		
-		
 		margin: 0% 3%;
 		padding:3% 0%;
 
 		p
 		{
-
 			color:white;
 			font-size: 6.5vh;
 
@@ -148,14 +136,12 @@ main
 		display: flex;
 		flex-direction: column;
 
-
-
 		background-color: rgba(255, 255, 255, 0.7);
 		border: 3px solid darkgrey;
 
+
 		margin: 0% 5%;
 		padding:3% 0%;
-
 
 		#m_formheadertext
 		{
@@ -178,8 +164,7 @@ main
 		#m_form
 		{
 			margin: 0% 5%;
-			
-		
+
 			#m_formlineone
 			{
 				display:flex;
@@ -188,8 +173,6 @@ main
 
 				padding:4% 0%;
 				margin:0% 10%;
-
-				
 
 				input
 				{
@@ -219,8 +202,6 @@ main
 				padding:4% 0%;
 				margin:0% 10%;
 
-				
-
 				input
 				{
 					width:100%;
@@ -241,14 +222,18 @@ main
 					height: 5vh;
 					font-size: 150%;
 
-
-
 					border: 1px solid grey;
 
 					@media only screen and (max-width:1300px)
 					{
 						width:100%;
+						
+					}
+					@media only screen and (max-width:800px)
+					{
+						width:100%;
 						height: 3vh;
+					
 					}
 				}
 				p
@@ -264,7 +249,6 @@ main
 				
 				margin: 0% 10%;
 
-
 				button
 				{
 					background-color: #339235;
@@ -279,8 +263,6 @@ main
 
 					transition:0.3s;
 
-					
-
 					@media only screen and (max-width:1000px)
 					{
 						font-size:150%;
@@ -292,7 +274,6 @@ main
 					display:flex;
 					justify-content: center;
 
-					
 					font-size: 4vh;
 
 					@media only screen and (max-width:800px)
@@ -341,7 +322,6 @@ main
 
 		#m_leftColumn
 		{
-		
 			border-top: solid 3px #3C3C3C; 
 			box-shadow: 5px 5px 15px lightgrey;
 			width: 40%;
@@ -411,15 +391,12 @@ main
 				@media only screen and (max-width:800px)
 					{
 						font-size:2vh;
-					}
-				
+					}		
 			}
-
 		}
 
 		#m_rightColumn
-		{
-		
+		{	
 			border-top: solid 3px #3C3C3C; 
 			box-shadow: 5px 5px 15px lightgrey;
 			width: 40%;
@@ -428,12 +405,10 @@ main
 
 			font-size: 2.5vh;
 
-
 			#m_rightColumnHeader
 			{
 				color:#6084A7;
 				font-size: 3.5vh;
-
 				@media only screen and (max-width:800px)
 				{
 					font-size:2.5vh;
@@ -492,11 +467,9 @@ main
 					{
 						font-size:2vh;
 					}
-				
 			}
 		}
 	}
-
 }
 
 //footer

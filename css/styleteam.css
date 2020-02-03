@@ -10,7 +10,7 @@
     align-self: center; }
   #m_formContainer #m_teamcontainer img {
     align-self: center;
-    box-shadow: 5px 5px 15px black;
+    box-shadow: 5px 5px 15px grey;
     margin-bottom: 5%;
     width: 20%;
     border-radius: 5px; }
